@@ -1,7 +1,7 @@
 # MGKMenuWithFilter
 A macOS menu that supports items filtration via keyboard input
 
-##About
+## About
 
 ## How to use it
 
