@@ -2,12 +2,12 @@
 A macOS menu that supports items filtration via keyboard input
 
 ## About
-MGKMenuWithFilter is a class that lets user to show only menu items which have a title with a query string inside. The query string can be changed via keyboard typing while the menu instance is shown. Here's the example:
+MGKMenuWithFilter is a class that lets the user show only menu items which have a title with a query string inside. The query string can be changed via keyboard typing while the menu instance is shown. Here's the example:
 ![](https://kazakov.life/wordpress/wp-content/uploads/2017/05/2017-05-12-10_17_50.gif)
 
 
 ## How to use it
-Add the MGKMenuWithFilter source code to the project and programatically populate a menu instance as usually, but allocate a MGKMenuWithFilter object insted of NSMenu. Here's the code snippet for the example above:
+Add the MGKMenuWithFilter source code to the project and programmatically populate a menu instance as usually, but allocate a MGKMenuWithFilter object instead of NSMenu. Here's the code snippet for the example above:
 ```swift
 @IBAction func showPopUpMenu(_ sender: Any) {
     let folder = NSURL.fileURL(withPath: "/Library/Desktop Pictures")
