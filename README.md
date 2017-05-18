@@ -37,4 +37,6 @@ Add the MGKMenuWithFilter source code to the project and programmatically popula
 ```
 
 ## More
+MacOS versions supported: [10.8-10.12] are fully supported, 10.7 is partially supported.
+
 Rationale and design notes: https://kazakov.life/2017/05/18/hacking-nsmenu-keyboard-navigation/
